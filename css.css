@@ -1,0 +1,86 @@
+body{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url('https://images5.alphacoders.com/680/680964.png');
+}
+
+h1{
+    margin-left: 45%;
+    margin-right: 46%;
+}
+
+h3{
+    margin-left: 43%;
+    margin-right: 44%;
+}
+
+label{
+    margin-left: 42%;
+    font-size: 1.5rem;
+}
+input{
+    height: 2%;
+}
+
+h2{
+    margin-left: 43%;
+    margin-right: 44%;
+}
+
+select{
+    margin-left: 46%;
+    height: 5%;
+    width: 5%;
+    border-radius: 50%;
+    text-align: center;
+    background-color: orange;
+}
+
+.boton{
+    margin-left: 46%;
+    height: 5%;
+    width: 5%;
+    border-radius: 50%;
+    background-color: orange;
+}
+
+.boton:hover{
+    background-image: url('https://biblioteca.acropolis.org/wp-content/uploads/2017/08/fire-heart.jpg');
+}
+
+.moneda{
+    height: 300px;
+    width: 300px;
+    margin-left: 41%;
+}
+
+.c{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: goldenrod;
+    border:13px solid yellow;
+}
+
+.moneda,
+.c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20rem;
+}
+
+.a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn:checked + label > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
